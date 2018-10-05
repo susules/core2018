@@ -1,0 +1,15 @@
+/target
+/generated
+/generated-tests
+/.idea
+/.settings
+/.classpath
+/.factorypath
+/.project
+atlassian-ide-plugin.xml
+/bin
+/.logs
+*.iml
+*.log
+
+
