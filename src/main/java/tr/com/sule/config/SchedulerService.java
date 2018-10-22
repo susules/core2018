@@ -8,6 +8,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 import org.springframework.scheduling.config.ScheduledTaskRegistrar;
 import org.springframework.stereotype.Service;
 import tr.com.sule.service.CommonService;
+import tr.com.sule.service.ICommonService;
 
 import java.time.LocalTime;
 import java.util.Calendar;
@@ -22,7 +23,7 @@ import java.util.GregorianCalendar;
 public class SchedulerService implements SchedulingConfigurer {
 
     @Autowired
-    CommonService commonService;
+    ICommonService commonService;
 
     @Bean
     public TaskScheduler poolScheduler() {

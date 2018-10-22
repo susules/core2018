@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CommonService implements ICommonService{
 
-    private int scheduleRun=10;
+    private int scheduleRun=100000;
 
     public void loadConfigurations() {
         System.out.println("load configuration");
